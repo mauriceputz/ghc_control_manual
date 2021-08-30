@@ -100,8 +100,10 @@ und der Installtionsprozess vollständig abgeschlossen wird.
 
 ![DockerInstallationFinish](img/restart.png)
 
-Achten Sie darauf das dass Programm Docker nach dem Neustart des Systems gestartet ist. Klicken Sie mit einem Doppel-Klick auf das Programm, welches nun auf Ihrem
+Achten Sie darauf das dass Programm Docker nach dem Neustart des Systems **GESTARTET** ist. Klicken Sie mit einem Doppel-Klick auf das Programm, welches nun auf Ihrem
 Desktop zu sehen ist. Das Fenster das aufgeht, können Sie minimieren oder so lassen wie es ist.
+
+> Wenn Docker nicht gestartet ist, kann die Anwendung nicht laufen. Versichern Sie sich dass Docker gestartet ist.
 
 ## GHC Control Installation
 
