@@ -4,9 +4,9 @@
 
 Damit das Programm funktioniert, muss zuerst ein anderes Programm namens "Docker" installiert sein.
 
-Docker kann auf folgender Website runtergeladen werden:
+[Docker](https://www.docker.com/products/docker-desktop) kann auf folgender Website runtergeladen werden:
 
-[Docker](https://www.docker.com/products/docker-desktop)
+**https://www.docker.com/products/docker-desktop**
 
 Klicken Sie auf den "Download for Windows"-Knopf wie im nachstehenden Bild.
 
@@ -15,7 +15,7 @@ Klicken Sie auf den "Download for Windows"-Knopf wie im nachstehenden Bild.
 Danach wird das Programm Docker heruntergeladen. Sie werden eine Datei namens "Docker Desktop Installer", in Ihrem
 Download-Ordner im Explorer finden wie auf folgendem Bild zu sehen sit.
 
-![DockerInstallationDir](https://github.com/mauriceputz/ghc_control_manual/tree/main/img/docker_installation_exe.png)
+![DockerInstallationDir](img/docker_installation_exe.png?raw=true "Pfad zur Installationsdatei")
 
 Mit einem Doppel-Klick auf diese Datei öffnet sich ein Fenster und Sie starten somit den Installationsprozess.
 
