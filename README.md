@@ -7,20 +7,22 @@ Zuerst muss Node.js auf dem PC installiert werden.
 Die Website zum runterladen ist:
 **https://nodejs.org/en/download/** oder klicken Sie [hier](https://nodejs.org/en/download/) um direkt auf die Website geleitet zu werden.
 
-- Klicken Sie auf der Website auf den linke Knopf, wie im folgenden Bild markiert, um Node.js herunterzuladen.
+- Klicken Sie auf der Website auf den linken Knopf, wie im folgenden Bild markiert, um Node.js herunterzuladen.
 
 ![NodejsWebsite](img/nodejs.png?raw=true)
 
-- Öffnen Sie die heruntegeladene Datei mit einem Doppelklick.
-
 Sie finden die Installationsdatei im Windows Explorer unter Downloads wie im folgenden Bild.
+
+- Öffnen Sie die heruntegeladene Datei mit einem Doppelklick.
 
 ![NodeJSInstallation](img/node_down.png?raw=true)
 
-- Folgen Sie nun den Anweisungen des geöffneten Installationsfensters von Node.js. Drücken Sie immer einfach **Next** und stimmen Sie den
+Folgen Sie nun den Anweisungen des geöffneten Installationsfensters von Node.js. Drücken Sie immer einfach **Next** und stimmen Sie den
 AGB zu, bis zu **Install** am Ende gelangen.
 
-- Nun wird Node.js installiert, dies kann ein paar Minuten dauern. Am Ende klicken Sie auf **Finish** wie im folgenden Bild gezeigt. Danach ist die Installation zu Node.js abgeschlossen.
+Nun wird Node.js installiert, dies kann ein paar Minuten dauern.
+
+- Am Ende klicken Sie auf **Finish** wie im folgenden Bild gezeigt. Danach ist die Installation zu Node.js abgeschlossen.
 
 ![NodeJSInstallFinish](img/nodejs_finish.png?raw=true)
 
@@ -30,19 +32,19 @@ Als zweites muss ein Tool namens **Yarn** installiert werden.
 
 - Um dies zu tun drücken Sie bitte **STRG + R** gleichzeitig.
 
-- Es öffnet sich ein Fenster links unten am Bildschirm, geben Sie hier den Text `cmd`ein und drücken Sie dann **Enter**:
+- Es öffnet sich ein Fenster links unten im Bildschirm, geben Sie hier den Text `cmd` ein und drücken Sie dann **Enter**:
 
 ![NodeJSInstallation](img/cmd.png?raw=true)
 
 - Es öffnet sich ein Fenster. Hier tippen Sie den Befehl `npm install --global yarn` ein und drücken dann **Enter**.
 
-- Das Programm wird nun installiert, wenn es richtig installiert worden ist, sieht es folgerndermaßen aus:
+- Das Programm wird nun installiert. Wenn es richtig installiert worden ist, sieht der Inhalt des Fensters folgendermaßen aus:
 
 ![NodeJSInstallation](img/yarn.png?raw=true)
 
 ## Docker Installation auf Windows
 
-Damit das Programm funktioniert, muss zuerst ein anderes Programm namens "Docker" installiert sein.
+Als drittes muss ein Programm namens "Docker" installiert werden.
 
 Docker kann auf folgender Website runtergeladen werden:
 
@@ -68,13 +70,13 @@ Die Installation startet nun nachdem Sie auf **OK** rechts unten geklickt haben.
 Nachdem die Installation fertig ist, erscheint in dem Fenster eine Meldung
 "Close and Restart".
 
-- Drücken Sie auf dieses Knopf, dies bewirkt, dass Windows neu gestartet wird
+- Drücken Sie auf dieses Knopf. Dies bewirkt, dass Windows neu gestartet wird
 und der Installtionsprozess vollständig abgeschlossen wird.
 
 ![DockerInstallationFinish](img/restart.png)
 
-Achten Sie darauf das dass Programm Docker gestartet ist. Klicken Sie mit einem Doppel-Klick auf das Programm, welches nun auf Ihrem
-Desktop zu sehen ist. Das Fenster das aufgeht können Sie minimieren oder so lassen wie es ist.
+Achten Sie darauf das dass Programm Docker nach dem Neustart des Systems gestartet ist. Klicken Sie mit einem Doppel-Klick auf das Programm, welches nun auf Ihrem
+Desktop zu sehen ist. Das Fenster das aufgeht, können Sie minimieren oder so lassen wie es ist.
 
 ## GHC Control Installation
 
@@ -82,13 +84,12 @@ Da nun Docker installiert ist, muss die eigentliche Software für die Videowall 
 
 - Kopieren Sie den gesamten Ordner, welcher das Programm enthält, vom USB-Stick auf Ihren Desktop.
 
-- Navigieren Sie nun in Ihrem Windows-Explorer in den Ordner, welchen Sie eben erst auf den Desktiop kopiert haben. Dies könnte wie
-folgt aussehen:
+- Navigieren Sie nun in Ihrem Windows-Explorer oder über den Desktop mit einem Doppel-Klick in den Ordner, welchen Sie eben erst auf den Desktop kopiert haben. Dies könnte wie folgt aussehen:
 
 ![GHCControlPath](img/ghc_control_path.png)
 
-- Drücken Sie nun die Shift-Tast, welche sich auf der Tastatur links über der "STRG"-Taste befindet und machen Sie gleichzeitig einen
-rechten Mausklick.
+- Drücken Sie nun die `Shift-Taste`, welche sich auf der Tastatur links über der "STRG"-Taste befindet und machen Sie gleichzeitig einen
+rechten Mausklick irgendwo auf den weißen Hintergrund im Explorer wie er im oberen Bild zu sehen ist.
 
 - Nun öffnet sich ein kleines Fenster und Sie müssen auf "PowerShell-Fenster hier öffnen" klicken. Genauer in folgendem
 Bild dokumentiert:
@@ -99,9 +100,7 @@ Bild dokumentiert:
 
 ![PowerShellWithPath](img/powershell.png)
 
-- Geben Sie in diesem Fenster nun folgenden Befehl ein und drücken Sie dann die "Enter"-Taste
-
-`make install`
+- Geben Sie in diesem Fenster nun den Befehl `make install` ein und drücken Sie dann die "Enter"-Taste.
 
 ![PowerShellWithPath](img/make_install.png)
 
@@ -113,7 +112,7 @@ Wenn die Installation fertig ist, was eine Weile dauern kann, muss am Ende der P
 
 ## Starten des Programms
 
-Wenn alle Schritte bis jetzt korrekt ausgeführt worden sind. Können Sie das Programm nun öffnen.
+Wenn alle Schritte bis jetzt korrekt ausgeführt worden sind, können Sie das Programm nun öffnen.
 
 - Dazu öffnen Sie einen Browser Ihrer Wahl, wie zum Beispiel Google Chrome oder Edge, und tippen oben in die Adressleiste
 des Browsers folgendes ein:
