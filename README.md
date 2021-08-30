@@ -10,7 +10,7 @@ Docker kann auf folgender Website runtergeladen werden:
 
 Klicken Sie auf den "Download for Windows"-Knopf wie im nachstehenden Bild.
 
-![DockerWebsite](https://github.com/mauriceputz/ghc_control_manual/tree/main/img/docker_website.png)
+![DockerWebsite](https://github.com/mauriceputz/ghc_control_manual/tree/main/img/docker_website.png?raw=true)
 
 Danach wird das Programm Docker heruntergeladen. Sie werden eine Datei namens "Docker Desktop Installer", in Ihrem
 Download-Ordner im Explorer finden wie auf folgendem Bild zu sehen sit.
