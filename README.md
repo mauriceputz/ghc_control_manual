@@ -42,9 +42,34 @@ Als zweites muss ein Tool namens **Yarn** installiert werden.
 
 ![NodeJSInstallation](img/yarn.png?raw=true)
 
+## Make install
+
+Als drittes muss Make installiert werden, dies wird später zum starten verwendet.
+
+- Um die zu tun Drücken Sie auf Ihre **Windows-Taste** und geben **PowerShell** ein. Führen Sie das Programm als Administrator aus, wie auf folgendem Bild
+gezeigt wird.
+
+![OpenPSAdmin](img/ps_make.png?raw=true)
+
+- Falls eine Warnung erscheint, drücken Sie **Ja**.
+
+- Geben Sie den Befehl `Set-ExecutionPolicy AllSigned` in dem neuen Fenster ein und drücken Sie **Enter**. Bestätigen Sie die Eingabe indem Sie einmal **J** eingeben und erneut **Enter** drücken. Das Ergebnis sieht folgendermaßen aus:
+
+![SetEXPOL](img/make_pol.png?raw=true)
+
+Führen Sie danach im selben Fenster das Kommando:
+
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+
+aus. Kopieren Sie es am besten von hier in das Fenster. Bestätigen Sie die EIngabe mit **Enter**
+
+Nach korrekter Installation geben Sie den Befehl `choco install make`ein. Mit *+Enter** bestätigen. Das Ergebnis:
+
+![InstallMake](img/make_finish.png?raw=true)
+
 ## Docker Installation auf Windows
 
-Als drittes muss ein Programm namens "Docker" installiert werden.
+Als nächstes muss ein Programm namens "Docker" installiert werden.
 
 Docker kann auf folgender Website runtergeladen werden:
 
