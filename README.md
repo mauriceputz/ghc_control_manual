@@ -1,12 +1,52 @@
 # GHC Control Docker
 
+## Node.js Installation auf Windows
+
+Zuerst muss Node.js auf dem PC installiert werden.
+
+Die Website zum runterladen ist:
+**https://nodejs.org/en/download/** oder [hier](https://nodejs.org/en/download/) klicken.
+
+- Klicken Sie auf der Website auf den linke Knopf, wie im folgenden Bild markiert, um Node.js herunterzuladen.
+
+![NodejsWebsite](img/nodejs.png?raw=true)
+
+- Öffnen Sie die heruntegeladene Datei mit einem Doppelklick.
+
+Sie finden die Installationsdatei im Windows Explorer unter Downloads wie im folgenden Bild.
+
+![NodeJSInstallation](img/node_down.png?raw=true)
+
+- Folgen Sie nun den Anweisungen des geöffneten Installationsfensters von Node.js. Drücken Sie immer einfach **Next** und stimmen Sie den
+AGB zu, bis zu **Install** am Ende gelangen.
+
+- Nun wird Node.js installiert, dies kann ein paar Minuten dauern. Am Ende klicken Sie auf **Finish** wie im folgenden Bild gezeigt. Danach ist die Installation zu Node.js abgeschlossen.
+
+![NodeJSInstallFinish](img/nodejs_finish.png?raw=true)
+
+## Yarn Installation
+
+Als zweites muss ein Tool namens **Yarn** installiert werden.
+
+- Um dies zu tun drücken Sie bitte **STRG + R** gleichzeitig.
+
+- Es öffnet sich ein Fenster links unten am Bildschirm, geben Sie hier den TExt `cmd`ein und drücken Sie dann **Enter**:
+
+![NodeJSInstallation](img/cmd.png?raw=true)
+
+- Es öffnet sich ein Fenster. Hier tippen Sie den Befehl `npm install --global yarn` ein und drücken dann **Enter**.
+
+- Das Programm wird nun installiert, wenn es richtig installiert worden ist, sieht es folgerndermaßen aus:
+
+![NodeJSInstallation](img/yarn.png?raw=true)
+
 ## Docker Installation auf Windows
 
 Damit das Programm funktioniert, muss zuerst ein anderes Programm namens "Docker" installiert sein.
 
-[Docker](https://www.docker.com/products/docker-desktop) kann auf folgender Website runtergeladen werden:
+Docker kann auf folgender Website runtergeladen werden:
 
-**https://www.docker.com/products/docker-desktop**
+**https://www.docker.com/products/docker-desktop** oder [hier](https://www.docker.com/products/docker-desktop) klicken.
 
 - Klicken Sie auf den "Download for Windows"-Knopf wie im nachstehenden Bild.
 
@@ -71,8 +111,13 @@ Wenn die Installation fertig ist, was eine Weile dauern kann, muss am Ende der P
 
 ![PowerShellWithPath](img/make_install_finish.png)
 
-** Starten des Programms
+## Starten des Programms
 
 Wenn alle Schritte bis jetzt korrekt ausgeführt worden sind. Können Sie das Programm nun öffnen.
 
-- Dazu 
+- Dazu öffnen Sie einen Browser Ihrer Wahl, wie zum Beispiel Google Chrome oder Edge, und tippen oben in die Adressleiste
+des Browsers folgendes ein:
+
+`localhost`
+
+Nun könnte es ein paar Sekunden bis zu einer Minute dauern, dann hat das Programm im Browser geladen und wurde richtig installiert.
