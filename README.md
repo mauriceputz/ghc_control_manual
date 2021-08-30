@@ -5,7 +5,7 @@
 Zuerst muss Node.js auf dem PC installiert werden.
 
 Die Website zum runterladen ist:
-**https://nodejs.org/en/download/** oder [hier](https://nodejs.org/en/download/) klicken.
+**https://nodejs.org/en/download/** oder klicken Sie [hier](https://nodejs.org/en/download/) um direkt auf die Website geleitet zu werden.
 
 - Klicken Sie auf der Website auf den linke Knopf, wie im folgenden Bild markiert, um Node.js herunterzuladen.
 
@@ -30,7 +30,7 @@ Als zweites muss ein Tool namens **Yarn** installiert werden.
 
 - Um dies zu tun drücken Sie bitte **STRG + R** gleichzeitig.
 
-- Es öffnet sich ein Fenster links unten am Bildschirm, geben Sie hier den TExt `cmd`ein und drücken Sie dann **Enter**:
+- Es öffnet sich ein Fenster links unten am Bildschirm, geben Sie hier den Text `cmd`ein und drücken Sie dann **Enter**:
 
 ![NodeJSInstallation](img/cmd.png?raw=true)
 
@@ -46,7 +46,7 @@ Damit das Programm funktioniert, muss zuerst ein anderes Programm namens "Docker
 
 Docker kann auf folgender Website runtergeladen werden:
 
-**https://www.docker.com/products/docker-desktop** oder [hier](https://www.docker.com/products/docker-desktop) klicken.
+**https://www.docker.com/products/docker-desktop** oder klicken Sie [hier](https://www.docker.com/products/docker-desktop) um direkt auf die Website geleitet zu werden.
 
 - Klicken Sie auf den "Download for Windows"-Knopf wie im nachstehenden Bild.
 
